@@ -1,19 +1,20 @@
 # AI API Testing Assistant
 
-A Python-based API testing assistant that validates API responses and prepares them for AI-powered evaluation.
+An AI-assisted API testing system built with Python, pytest, and automated response evaluation logic.
 
 ---
 
 ## Features
 
-- API request handling
-- Automated API testing with pytest
-- Structured response validation
-- Extendable AI evaluation system
+- API endpoint testing
+- Automated response validation
+- AI-style response scoring
+- Structured modular architecture
+- Pytest integration
 
 ---
 
-## Stack
+## Tech Stack
 
 - Python
 - requests
@@ -21,7 +22,26 @@ A Python-based API testing assistant that validates API responses and prepares t
 
 ---
 
+## Architecture
+
+Client Request
+    ↓
+API Caller
+    ↓
+Response Validation
+    ↓
+AI Evaluation Engine
+    ↓
+Score + Feedback
+
+---
+
 ## Run Project
 
-```bash
 python3 main.py
+
+---
+
+## Run Tests
+
+python3 -m pytest
